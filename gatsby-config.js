@@ -8,6 +8,13 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
+      resolve:  '@horacioh/gatsby-theme-instagram',
+      options: {
+        type: `account`,
+        username: "gymgal78",
+      },
+    },
+    {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
       options: {

@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import { Grid } from '@horacioh/gatsby-theme-instagram'
+
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -24,6 +26,7 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
+        height: '32rem', 
       }}
     >
       <div
@@ -36,7 +39,7 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h1
+       {/* <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
@@ -61,11 +64,17 @@ export const IndexPageTemplate = ({
           }}
         >
           {subheading}
-        </h3>
+        </h3> */}
       </div>
     </div>
     <section className="section section--gradient">
-      <div className="container">
+      <div className="container"> 
+        <h1 className="has-text-weight-semibold is-size-2 has-text-centered"> Follow my journey </h1>
+      <div style={{
+        marginTop: "3rem", 
+      }}>
+      <Grid/>
+      </div>
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
