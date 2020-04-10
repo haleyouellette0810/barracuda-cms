@@ -5,7 +5,7 @@ image: /img/kimimage.png
 heading: Kim Lateacher
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: "Why Kim? "
+  title: "My goal "
   description: Let me help you be the best version of yourself that you can be
     with dynamic training regimes, diets, and advice tailored to your body and
     mind.
